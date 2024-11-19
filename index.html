@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <p>Застосовується до тегів &lt;p&gt;, вкладених у div (div>p), на першому рівні, вага 2</p>
+  </div>
+
+  <h1>&lt;h1&gt; Теговий селектор, вага 1</h1>
+  <p class="text">Селектор класу (.text), вага 10</p>
+  <span id="unique">Селектор (ID), вага 100</span>
+  <p><a href="#" data-type="link">Селектор атрибуту &lt;a&gt;, вага 11</a></p>
+  <div class="nested">
+    <p>Вкладений селектор (.nested p), вага 11</p>
+  </div>
+  <ul>
+    <li class="child">Дочірній селектор (ul > li.child), вага 12</li>
+  </ul>
+  <div>
+    <p class="sequence" id="combo" data-info="data">Послідовність селекторів
+      (
+      div > p.sequence#combo[data-info="data"]), вага 122</p>
+  </div>
+  <article class="combo-class">
+    <section>
+      <p>Комбінація тег/клас/вкладеності (article.combo-class section p), вага 13</p>
+    </section>
+  </article>
+  <p class="important">Засосування селектора !Important, має наибільшу вагу</p>
+</body>
+
+</html>
