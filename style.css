@@ -13,3 +13,11 @@ h1 {
 #unique {
   color: red;
 }
+
+a[data-type="link"] {
+  color: purple;
+}
+
+.nested p {
+  color: orange;
+}
