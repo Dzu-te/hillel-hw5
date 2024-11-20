@@ -5,3 +5,11 @@ div>p {
 h1 {
   color: blue;
 }
+
+.text {
+  color: green;
+}
+
+#unique {
+  color: red;
+}
