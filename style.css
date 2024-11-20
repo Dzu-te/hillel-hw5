@@ -21,3 +21,22 @@ a[data-type="link"] {
 .nested p {
   color: orange;
 }
+
+ul>li.child {
+  color: brown;
+}
+
+div>p.sequence#combo[data-info="data"] {
+  background-color: lightblue;
+  color: black;
+}
+
+article.combo-class section p {
+  font-weight: bold;
+  color: teal;
+}
+
+.important {
+  font-size: 20px !important;
+  color: rgb(255, 0, 187) !important;
+}
